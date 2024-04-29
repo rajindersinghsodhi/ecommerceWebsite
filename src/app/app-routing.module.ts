@@ -9,10 +9,11 @@ import { SingupComponent } from './components/singup/singup.component';
 
 const routes: Routes = [
   {path: "", component: HomeComponent},
-  {path: "seller", component: SellerComponent},
+  {path: "seller", component: LoginComponent},
   {path: "cart", component: CartComponent},
   {path: "login", component: LoginComponent},
   {path: "signup", component: SingupComponent},
+  {path: "seller/signup", component: SingupComponent},
 ];
 
 @NgModule({
