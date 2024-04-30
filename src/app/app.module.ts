@@ -8,6 +8,8 @@ import { SellerComponent } from './components/seller/seller.component';
 import { CartComponent } from './components/cart/cart.component';
 import { LoginComponent } from './components/login/login.component';
 import { SingupComponent } from './components/singup/singup.component';
+import { ProductComponent } from './components/product/product.component';
+import { ProductDescriptionComponent } from './components/product-description/product-description.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { SingupComponent } from './components/singup/singup.component';
     SellerComponent,
     CartComponent,
     LoginComponent,
-    SingupComponent
+    SingupComponent,
+    ProductComponent,
+    ProductDescriptionComponent
   ],
   imports: [
     BrowserModule,
